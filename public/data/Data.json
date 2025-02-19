@@ -1,0 +1,294 @@
+{
+    "shoes": [
+      {
+        "brand": "Adidas",
+        "name": "Adidas Ultraboost 22",
+        "year": 2022,
+        "price": 180.00,
+        "category": "Herr",
+        "facts": {
+          "type": "Löparsko",
+          "color": "Core Black / Grey",
+          "material": "Primeknit ovandel, Boost-dämpning",
+          "features": [
+            "Hög komfort",
+            "Responsiv dämpning",
+            "Bra passform"
+          ]
+        }
+      },
+      {
+        "brand": "Adidas",
+        "name": "Adidas NMD R1",
+        "year": 2023,
+        "price": 140.00,
+        "category": "Herr",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Cloud White / Core Black",
+          "material": "Mesh ovandel, Boost sula",
+          "features": [
+            "Stilren design",
+            "Bra passform",
+            "Funktionell för både vardag och träning"
+          ]
+        }
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Air Max 270",
+        "year": 2022,
+        "price": 150.00,
+        "category": "Herr",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Black / White / Volt",
+          "material": "Textil ovandel, Air Max dämpning",
+          "features": [
+            "Maximal komfort",
+            "Stilren och sportig design",
+            "Hög dämpning i hälen"
+          ]
+        }
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike ZoomX Invincible Run Flyknit",
+        "year": 2023,
+        "price": 180.00,
+        "category": "Herr",
+        "facts": {
+          "type": "Löparsko",
+          "color": "White / Black",
+          "material": "Flyknit ovandel, ZoomX-dämpning",
+          "features": [
+            "Extremt bra dämpning",
+            "Överlägsen komfort",
+            "Perfekt för långdistanslöpning"
+          ]
+        }
+      },
+      {
+        "brand": "Puma",
+        "name": "Puma Suede Classic",
+        "year": 2022,
+        "price": 80.00,
+        "category": "Herr",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Puma Black / White",
+          "material": "Syntetiskt läder, gummisula",
+          "features": [
+            "Tidlös design",
+            "Komfortabel passform",
+            "Mångsidig och stilren"
+          ]
+        }
+      },
+      {
+        "brand": "Puma",
+        "name": "Puma Future Rider",
+        "year": 2023,
+        "price": 90.00,
+        "category": "Herr",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Caviar / White",
+          "material": "Textil ovandel, EVA-sula",
+          "features": [
+            "Sportig retrodesign",
+            "Lättviktig och bekväm",
+            "Bra andningsförmåga"
+          ]
+        }
+      },
+      {
+        "brand": "Adidas",
+        "name": "Adidas Superstar",
+        "year": 2021,
+        "price": 100.00,
+        "category": "Dam",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "White / Black",
+          "material": "Läder, gummisula",
+          "features": [
+            "Tidlös och klassisk design",
+            "Bekväm passform",
+            "Lång hållbarhet"
+          ]
+        }
+      },
+      {
+        "brand": "Adidas",
+        "name": "Adidas Stan Smith",
+        "year": 2023,
+        "price": 85.00,
+        "category": "Dam",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "White / Green",
+          "material": "Läder, gummisula",
+          "features": [
+            "Klassisk design",
+            "Lätt och bekväm",
+            "Enkel att matcha med olika kläder"
+          ]
+        }
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 Low",
+        "year": 2022,
+        "price": 110.00,
+        "category": "Dam",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "White / White",
+          "material": "Läder, gummisula",
+          "features": [
+            "Klassisk och tidlös",
+            "Hög komfort",
+            "Stabil sula"
+          ]
+        }
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Blazer Mid '77 Vintage",
+        "year": 2023,
+        "price": 120.00,
+        "category": "Dam",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "White / Black",
+          "material": "Läder, gummisula",
+          "features": [
+            "Vintage-stil",
+            "Bra stöd för fotleden",
+            "Komfortabel passform"
+          ]
+        }
+      },
+      {
+        "brand": "Puma",
+        "name": "Puma Cali Sport",
+        "year": 2022,
+        "price": 95.00,
+        "category": "Dam",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "White / Peach",
+          "material": "Läder, gummisula",
+          "features": [
+            "Sportig och feminin design",
+            "Bekväm passform",
+            "Hög kvalitet"
+          ]
+        }
+      },
+      {
+        "brand": "Puma",
+        "name": "Puma Carina L",
+        "year": 2023,
+        "price": 90.00,
+        "category": "Dam",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Puma White / Rose Gold",
+          "material": "Läder, gummisula",
+          "features": [
+            "Elegant design",
+            "Komfortabel passform",
+            "Bra för både vardag och sport"
+          ]
+        }
+      },
+      {
+        "brand": "Adidas",
+        "name": "Adidas Superstar Kids",
+        "year": 2021,
+        "price": 60.00,
+        "category": "Barn",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "White / Black",
+          "material": "Läder, gummisula",
+          "features": [
+            "Klassisk design",
+            "Lätt att ta på och av",
+            "Hållbara material"
+          ]
+        }
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Air Zoom Pegasus 39 Kids",
+        "year": 2023,
+        "price": 70.00,
+        "category": "Barn",
+        "facts": {
+          "type": "Löparsko",
+          "color": "Black / White",
+          "material": "Textil ovandel, gummisula",
+          "features": [
+            "Bra stöd för växande fötter",
+            "Lätt och bekväm",
+            "Bra dämpning"
+          ]
+        }
+      },
+      {
+        "brand": "Puma",
+        "name": "Puma Future Rider Kids",
+        "year": 2022,
+        "price": 65.00,
+        "category": "Barn",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Puma Black / Yellow",
+          "material": "Textil ovandel, EVA-sula",
+          "features": [
+            "Sportig design",
+            "Lätt och flexibel",
+            "Bra för aktiva barn"
+          ]
+        }
+      },
+      {
+        "brand": "Adidas",
+        "name": "Adidas Samba Kids",
+        "year": 2021,
+        "price": 55.00,
+        "category": "Barn",
+        "facts": {
+          "type": "Lifestyle",
+          "color": "Core Black / White",
+          "material": "Läder, gummisula",
+          "features": [
+            "Klassisk sportdesign",
+            "Komfortabel passform",
+            "Bra grepp på underlag"
+          ]
+        }
+      },
+      {
+        "brand": "Nike",
+        "name": "Nike Revolution 6 Kids",
+        "image": "Images/Nike Revolution 6 Kids.jpg",
+        "year": 2023,
+        "price": 60.00,
+        "category": "Barn",
+        "facts": {
+          "type": "Löparsko",
+          "color": "Blue / Black",
+          "material": "Textil ovandel, gummisula",
+          "features": [
+            "Lätt och bekväm",
+            "Bra passform",
+            "Hög komfort för barn"
+          ]
+        }
+      }
+    ]
+  }
