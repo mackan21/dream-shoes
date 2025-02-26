@@ -3,20 +3,20 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-<div id="uppernav">
-        <i id="ikon" class="ri-search-line"></i>
-        <p>
-          <span id="logga">Dreamshoes</span>
-        </p>
-        <i id="ikon" class="ri-shopping-bag-fill"></i>
-      </div>
-      <div id="lowernav">
-        <ul class="navlinks">
-          <li><a href="#">Herr</a></li>
-          <li><a href="#">Dam</a></li>
-          <li><a href="#">Barn</a></li>
-        </ul>
-      </div>
+  <div id="uppernav">
+    <i id="ikon" class="ri-search-line"></i>
+    <p>
+      <span id="logga">Dreamshoes</span>
+    </p>
+    <i id="ikon" class="ri-shopping-bag-fill"></i>
+  </div>
+  <div id="lowernav">
+    <ul class="navlinks">
+      <li><a href="#">Herr</a></li>
+      <li><a href="#">Dam</a></li>
+      <li><a href="#">Barn</a></li>
+    </ul>
+  </div>
   <RouterView />
 </template>
 
