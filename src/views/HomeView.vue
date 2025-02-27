@@ -37,6 +37,20 @@
         </div>
       </div>
     </section>
+    <section class="categories">
+      <div class="category">
+        <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
+        <RouterLink class="category-button">DAMSKOR</RouterLink>
+      </div>
+      <div class="category">
+        <img src="../assets/images/TRIO_BANNER_MEN_DESKTOP.webp" alt="" />
+        <RouterLink class="category-button">HERRSKOR</RouterLink>
+      </div>
+      <div class="category">
+        <img src="../assets/images/2148817360.jpg" alt="" />
+        <RouterLink class="category-button">BARNSKOR</RouterLink>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -82,5 +96,32 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+/* Categories section */
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 2rem;
+}
+.category {
+  position: relative;
+  width: 33%;
+}
+.category img {
+  width: 100%;
+  display: block;
+}
+.category-button {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%);
+  background: white;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 1rem 2rem;
 }
 </style>
