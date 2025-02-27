@@ -88,7 +88,7 @@ h1 {
   border: 2px solid black;
   margin-top: 1rem;
 }
-/* Bestseller section */
+/* Bestseller section*/
 .product-image {
   width: 275px;
 }
