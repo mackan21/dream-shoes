@@ -101,6 +101,7 @@ function searchShoes() {
       </div>
     </section>
   </main>
+
 </template>
 
 <style scoped>
