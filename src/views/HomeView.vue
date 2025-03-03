@@ -17,7 +17,7 @@ function searchShoes() {
       <img src="../assets/images/hero.webp" alt="" />
       <div class="hero-content">
         <h1>VÄLKOMMEN TILL DREAMSHOES</h1>
-        <RouterLink class="hero-button">ALLA SKOR</RouterLink>
+        <RouterLink to="/allshoes" class="hero-button">ALLA SKOR</RouterLink>
       </div>
     </section>
      <h2 class="titel-vår"> Bäst Säljare</h2>
@@ -87,15 +87,17 @@ function searchShoes() {
     <section class="categories">
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
-        <RouterLink class="category-button">DAMSKOR</RouterLink>
+        <RouterLink to="/womenshoes" class="category-button"
+          >DAMSKOR</RouterLink
+        >
       </div>
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_MEN_DESKTOP.webp" alt="" />
-        <RouterLink class="category-button">HERRSKOR</RouterLink>
+        <RouterLink to="/menshoes" class="category-button">HERRSKOR</RouterLink>
       </div>
       <div class="category">
         <img src="../assets/images/2148817360.jpg" alt="" />
-        <RouterLink class="category-button">BARNSKOR</RouterLink>
+        <RouterLink to="/kidshoes" class="category-button">BARNSKOR</RouterLink>
       </div>
     </section>
   </main>
@@ -171,6 +173,7 @@ h1 {
   border: 2px solid black;
   border-radius: 50px;
   padding: 1rem 2rem;
+  font-weight: bold;
 }
 .titel-vår, .sko {
   position: relative;
