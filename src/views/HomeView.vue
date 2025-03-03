@@ -1,16 +1,16 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const shoes = ref(null)
+const shoes = ref(null);
 
 function searchShoes() {
-  fetch('/data.json')
+  fetch("/data.json")
     .then((response) => response.json())
     .then((result) => {
-      shoes.value = result.shoes
-    })
+      shoes.value = result.shoes;
+    });
 }
- </script>
+</script>
 <template>
   <main>
     <section class="hero">
@@ -20,9 +20,8 @@ function searchShoes() {
         <RouterLink to="/allshoes" class="hero-button">ALLA SKOR</RouterLink>
       </div>
     </section>
-     <h2 class="titel-vår"> Bäst Säljare</h2>
+    <h2 class="titel-vår">Bäst Säljare</h2>
     <section class="products">
-
       <div class="products-container">
         <div class="product-card">
           <img class="product-image" src="../assets/images/dior2.webp" alt="" />
@@ -30,17 +29,17 @@ function searchShoes() {
           <p>Jordan 1 Retro Dior High</p>
           <p>110 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
         <div class="product-card">
           <img class="product-image" src="../assets/images/Grey2.webp" alt="" />
           <p>Addidas</p>
           <p>Campus 00s "Grey Gum"</p>
-          <p>18 405 kr </p>
+          <p>18 405 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
         <div class="product-card">
           <img class="product-image" src="../assets/images/png.jpg" alt="" />
@@ -48,8 +47,8 @@ function searchShoes() {
           <p>Speedcat OG Sneakers Unisex</p>
           <p>10 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
         <div class="product-card">
           <img class="product-image" src="../assets/images/n.webp" alt="" />
@@ -57,51 +56,41 @@ function searchShoes() {
           <p>New Balance BB480 Kids Sneakers</p>
           <p>11 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
       </div>
     </section>
-    <h2 class="sko"> Hitta Din Nästa Sko</h2>
-
-
-
+    <h2 class="sko">Hitta Din Nästa Sko</h2>
 
     <section class="search-bar">
       <button @click="searchShoes">Search Brand</button>
       <dl v-if="shoes !== null">
-  <template v-for="(shoe, index) in shoes" :key="index">
-    <dt>{{ shoe.brand }}</dt>
-    <dt>{{ shoe.name }}</dt>
-    <dt>{{ shoe.year }}</dt>
-    <dt>{{ shoe.category }}</dt>
-    <dd>{{ shoe.price }} KR</dd>
-
-  </template>
-</dl>
+        <template v-for="(shoe, index) in shoes" :key="index">
+          <dt>{{ shoe.brand }}</dt>
+          <dt>{{ shoe.name }}</dt>
+          <dt>{{ shoe.year }}</dt>
+          <dt>{{ shoe.category }}</dt>
+          <dd>{{ shoe.price }} KR</dd>
+        </template>
+      </dl>
     </section>
-
-
-
 
     <section class="categories">
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
-        <RouterLink to="/womenshoes" class="category-button"
-          >DAMSKOR</RouterLink
-        >
+        <RouterLink to="/allshoes" class="category-button">DAMSKOR</RouterLink>
       </div>
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_MEN_DESKTOP.webp" alt="" />
-        <RouterLink to="/menshoes" class="category-button">HERRSKOR</RouterLink>
+        <RouterLink to="/allshoes" class="category-button">HERRSKOR</RouterLink>
       </div>
       <div class="category">
         <img src="../assets/images/2148817360.jpg" alt="" />
-        <RouterLink to="/kidshoes" class="category-button">BARNSKOR</RouterLink>
+        <RouterLink to="/allshoes" class="category-button">BARNSKOR</RouterLink>
       </div>
     </section>
   </main>
-
 </template>
 
 <style scoped>
@@ -176,14 +165,16 @@ h1 {
   padding: 1rem 2rem;
   font-weight: bold;
 }
-.titel-vår, .sko {
+.titel-vår,
+.sko {
   position: relative;
   margin-left: 20px;
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.add-to-cart-button, .search-button {
-  background-color: #FFF2C6;
+.add-to-cart-button,
+.search-button {
+  background-color: #fff2c6;
   color: rgb(0, 0, 0);
   padding: 10px 10px;
   border: none;
@@ -197,7 +188,9 @@ h1 {
 .add-to-cart-button:hover {
   background-color: #ebd9a0;
 }
-.search-button :hover {background-color:#ebd9a0}
+.search-button :hover {
+  background-color: #ebd9a0;
+}
 
 .search-bar {
   display: flex;
@@ -230,7 +223,7 @@ h1 {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 8px;
-  background-color: #FFF2C6;
+  background-color: #fff2c6;
   color: black;
   border: none;
   cursor: pointer;
@@ -241,7 +234,6 @@ h1 {
 .search-bar button:hover {
   background-color: #ebd9a0;
 }
-
 
 .search-bar dl {
   display: grid;
@@ -276,5 +268,4 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 </style>
