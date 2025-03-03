@@ -33,7 +33,7 @@ header {
   padding: 13px 0;
 }
 #lowernav {
-  background-color: #fff566;
+  background-color: #FFF2C6;
   padding: 5px 0;
 }
 #logga {
