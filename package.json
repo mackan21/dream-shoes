@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build":  "webpack --mode production",
+    "preview": "vite preview",
+    "serve": "webpack serve --open"
   },
   "dependencies": {
     "pinia": "^2.3.1",
