@@ -1,15 +1,5 @@
 <script setup>
-import { ref } from 'vue'
 
-const shoes = ref(null)
-
-function searchShoes() {
-  fetch('/data.json')
-    .then((response) => response.json())
-    .then((result) => {
-      shoes.value = result.shoes
-    })
-}
  </script>
 <template>
   <main>
@@ -61,24 +51,6 @@ function searchShoes() {
   </button>
         </div>
       </div>
-    </section>
-    <h2 class="sko"> Hitta Din Nästa Sko</h2>
-
-
-
-
-    <section class="search-bar">
-      <button @click="searchShoes">Search Brand</button>
-      <dl v-if="shoes !== null">
-  <template v-for="(shoe, index) in shoes" :key="index">
-    <dt>{{ shoe.brand }}</dt>
-    <dt>{{ shoe.name }}</dt>
-    <dt>{{ shoe.year }}</dt>
-    <dt>{{ shoe.category }}</dt>
-    <dd>{{ shoe.price }} KR</dd>
-
-  </template>
-</dl>
     </section>
 
 
