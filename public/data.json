@@ -56,7 +56,7 @@
       },
       {
         "brand": "Nike",
-        "name": "Nike ZoomX Invincible Run Flyknit",
+        "name": "Nike ZoomX Run ",
         "year": 2023,
         "price": 1800.00,
         "image": "image/run.jpg",
@@ -164,7 +164,7 @@
       },
       {
         "brand": "Nike",
-        "name": "Nike Blazer Mid '77 Vintage",
+        "name": "Nike Blazer Mid '77 ",
         "year": 2023,
         "price": 1200.00,
         "image": "image/77.jpg",
@@ -218,7 +218,7 @@
       },
       {
         "brand": "Adidas",
-        "name": "Adidas Superstar Kids",
+        "name": "Superstar Kids",
         "year": 2021,
         "price": 600.00,
         "image": "image/superstarkids.jpg",
@@ -236,7 +236,7 @@
       },
       {
         "brand": "Nike",
-        "name": "Nike Air Zoom Pegasus 39 Kids",
+        "name": "Nike Air Zoom ",
         "year": 2023,
         "price": 700.00,
         "image": "image/39.jpg",
@@ -254,7 +254,7 @@
       },
       {
         "brand": "Puma",
-        "name": "Puma Future Rider Kids",
+        "name": "Puma Future Rider",
         "year": 2022,
         "price": 605.00,
         "image": "image/riderkids.jpg",
@@ -290,7 +290,7 @@
       },
       {
         "brand": "Nike",
-        "name": "Nike Revolution 6 Kids",
+        "name": "Nike Revolution 6",
         "image":"image/nike6.jpg",
         "year": 2023,
         "price": 600.00,
@@ -326,7 +326,7 @@
       },
       {
         "brand": "Reebok",
-        "name": "Reebok Classic Leather",
+        "name": "Reebok Leather",
         "year": 2022,
         "price": 1100.00,
         "image":"image/leather.png",
@@ -344,7 +344,7 @@
       },
       {
         "brand": "Converse",
-        "name": "Converse Chuck Taylor All Star",
+        "name": "Converse Taylor",
         "year": 2023,
         "price": 950.00,
         "image":"image/allstar.jpg",
@@ -380,7 +380,7 @@
       },
       {
         "brand": "Under Armour",
-        "name": "Under Armour HOVR Phantom",
+        "name": "Under Armour",
         "year": 2023,
         "price": 1700.00,
         "image":"image/armour.jpg",
@@ -416,7 +416,7 @@
       },
       {
       "brand": "Nike",
-  "name": "Nike Air Jordan Jumpman Jack",
+  "name": " Jumpman Jack",
   "year": 2023,
   "price": 1500.00,
   "image": "image/jumpman_jack.webp",

@@ -20,7 +20,7 @@ searchShoes()
 <template>
  <h2 class="sko"> Hitta Din Nästa Sko</h2>
 <section class="search-bar">
-  <button @click="searchShoes">Search Brand</button>
+  <!--  <button @click="searchShoes">Search Brand</button> -->
   <div v-if="shoes.length > 0" class="shoe-grid">
       <div
         v-for="(shoe, index) in shoes"
@@ -73,8 +73,8 @@ searchShoes()
 }
 
 .search-bar button {
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 5px 10px;
+  font-size: 14px;
   border-radius: 8px;
   background-color: #FFF2C6;
   color: black;
@@ -156,12 +156,12 @@ searchShoes()
 }
 .more-btn {
   background-color: #f0f0f0;
-  padding: 8px 16px;
+  padding: 2px 4px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .more-btn:hover {
