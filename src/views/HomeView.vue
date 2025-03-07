@@ -49,7 +49,6 @@
         </div>
       </div>
     </section>
-
     <section class="categories">
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
