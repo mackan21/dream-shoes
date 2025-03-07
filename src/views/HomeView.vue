@@ -1,16 +1,4 @@
-<script setup>
-import { ref } from "vue";
-
-const shoes = ref(null);
-
-function searchShoes() {
-  fetch("/data.json")
-    .then((response) => response.json())
-    .then((result) => {
-      shoes.value = result.shoes;
-    });
-}
-</script>
+<script setup></script>
 <template>
   <main>
     <section class="hero">
@@ -61,33 +49,21 @@ function searchShoes() {
         </div>
       </div>
     </section>
-    <h2 class="sko">Hitta Din Nästa Sko</h2>
-
-    <section class="search-bar">
-      <button @click="searchShoes">Search Brand</button>
-      <dl v-if="shoes !== null">
-        <template v-for="(shoe, index) in shoes" :key="index">
-          <dt>{{ shoe.brand }}</dt>
-          <dt>{{ shoe.name }}</dt>
-          <dt>{{ shoe.year }}</dt>
-          <dt>{{ shoe.category }}</dt>
-          <dd>{{ shoe.price }} KR</dd>
-        </template>
-      </dl>
-    </section>
 
     <section class="categories">
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
-        <RouterLink to="/allshoes" class="category-button">DAMSKOR</RouterLink>
+        <RouterLink to="/womenshoes" class="category-button"
+          >DAMSKOR</RouterLink
+        >
       </div>
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_MEN_DESKTOP.webp" alt="" />
-        <RouterLink to="/allshoes" class="category-button">HERRSKOR</RouterLink>
+        <RouterLink to="/menshoes" class="category-button">HERRSKOR</RouterLink>
       </div>
       <div class="category">
         <img src="../assets/images/2148817360.jpg" alt="" />
-        <RouterLink to="/allshoes" class="category-button">BARNSKOR</RouterLink>
+        <RouterLink to="/kidshoes" class="category-button">BARNSKOR</RouterLink>
       </div>
     </section>
   </main>
