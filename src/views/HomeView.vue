@@ -52,17 +52,15 @@
     <section class="categories">
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
-        <RouterLink to="/womenshoes" class="category-button"
-          >DAMSKOR</RouterLink
-        >
+        <RouterLink to="/allshoes" class="category-button">DAMSKOR</RouterLink>
       </div>
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_MEN_DESKTOP.webp" alt="" />
-        <RouterLink to="/menshoes" class="category-button">HERRSKOR</RouterLink>
+        <RouterLink to="/allshoes" class="category-button">HERRSKOR</RouterLink>
       </div>
       <div class="category">
         <img src="../assets/images/2148817360.jpg" alt="" />
-        <RouterLink to="/kidshoes" class="category-button">BARNSKOR</RouterLink>
+        <RouterLink to="/allshoes" class="category-button">BARNSKOR</RouterLink>
       </div>
     </section>
   </main>
