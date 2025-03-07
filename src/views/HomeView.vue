@@ -1,6 +1,4 @@
-<script setup>
-
- </script>
+<script setup></script>
 <template>
   <main>
     <section class="hero">
@@ -10,9 +8,8 @@
         <RouterLink to="/allshoes" class="hero-button">ALLA SKOR</RouterLink>
       </div>
     </section>
-     <h2 class="titel-vår"> Bäst Säljare</h2>
+    <h2 class="titel-vår">Bäst Säljare</h2>
     <section class="products">
-
       <div class="products-container">
         <div class="product-card">
           <img class="product-image" src="../assets/images/dior2.webp" alt="" />
@@ -20,17 +17,17 @@
           <p>Jordan 1 Retro Dior High</p>
           <p>110 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
         <div class="product-card">
           <img class="product-image" src="../assets/images/Grey2.webp" alt="" />
           <p>Addidas</p>
           <p>Campus 00s "Grey Gum"</p>
-          <p>18 405 kr </p>
+          <p>18 405 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
         <div class="product-card">
           <img class="product-image" src="../assets/images/png.jpg" alt="" />
@@ -38,8 +35,8 @@
           <p>Speedcat OG Sneakers Unisex</p>
           <p>10 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
         <div class="product-card">
           <img class="product-image" src="../assets/images/n.webp" alt="" />
@@ -47,15 +44,11 @@
           <p>New Balance BB480 Kids Sneakers</p>
           <p>11 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
-    Add to Cart
-  </button>
+            Add to Cart
+          </button>
         </div>
       </div>
     </section>
-
-
-
-
     <section class="categories">
       <div class="category">
         <img src="../assets/images/TRIO_BANNER_WOMEN_DESKTOP.webp" alt="" />
@@ -73,7 +66,6 @@
       </div>
     </section>
   </main>
-
 </template>
 
 <style scoped>
@@ -148,14 +140,16 @@ h1 {
   padding: 1rem 2rem;
   font-weight: bold;
 }
-.titel-vår, .sko {
+.titel-vår,
+.sko {
   position: relative;
   margin-left: 20px;
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.add-to-cart-button, .search-button {
-  background-color: #FFF2C6;
+.add-to-cart-button,
+.search-button {
+  background-color: #fff2c6;
   color: rgb(0, 0, 0);
   padding: 10px 10px;
   border: none;
@@ -169,7 +163,9 @@ h1 {
 .add-to-cart-button:hover {
   background-color: #ebd9a0;
 }
-.search-button :hover {background-color:#ebd9a0}
+.search-button :hover {
+  background-color: #ebd9a0;
+}
 
 .search-bar {
   display: flex;
@@ -202,7 +198,7 @@ h1 {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 8px;
-  background-color: #FFF2C6;
+  background-color: #fff2c6;
   color: black;
   border: none;
   cursor: pointer;
@@ -213,7 +209,6 @@ h1 {
 .search-bar button:hover {
   background-color: #ebd9a0;
 }
-
 
 .search-bar dl {
   display: grid;
@@ -248,5 +243,4 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 </style>
