@@ -8,7 +8,7 @@
         <RouterLink to="/allshoes" class="hero-button">ALLA SKOR</RouterLink>
       </div>
     </section>
-    <h2 class="titel-vår">Bäst Säljare</h2>
+    <h2 class="titel-vår">Bästsäljare</h2>
     <section class="products">
       <div class="products-container">
         <div class="product-card">
@@ -101,8 +101,11 @@ h1 {
   margin-top: 1rem;
 }
 /* Bestseller section*/
+.products {
+  margin: 1rem;
+}
 .product-image {
-  width: 275px;
+  width: 100%;
 }
 
 .products-container {
@@ -240,5 +243,55 @@ h1 {
   background-color: #fafafa;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1200px) {
+  .products p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1024px) {
+  .products p {
+    font-size: 0.55rem;
+  }
+}
+@media (max-width: 768px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .products p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .hero-content {
+    max-width: 300px;
+  }
+  .hero-button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  .category-button {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .products-container {
+    grid-template-columns: 1fr;
+  }
+  .categories {
+    flex-direction: column;
+  }
+  .category {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .hero-content {
+    max-width: 200px;
+  }
 }
 </style>
