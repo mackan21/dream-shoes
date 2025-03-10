@@ -10,9 +10,9 @@ import { RouterLink, RouterView } from "vue-router";
   </div>
   <div id="lowernav">
     <ul class="navlinks">
-      <li><a href="#">Herr</a></li>
-      <li><a href="#">Dam</a></li>
-      <li><a href="#">Barn</a></li>
+      <li><RouterLink to="/allshoes">Herr</RouterLink></li>
+      <li><RouterLink to="/allshoes">Dam</RouterLink></li>
+      <li><RouterLink to="/allshoes">Barn</RouterLink></li>
     </ul>
   </div>
   <RouterView />
