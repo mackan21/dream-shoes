@@ -27,6 +27,8 @@ searchShoes()
         :key="index"
         class="shoe-card"
       >
+      <button @click="addToCart(shoe)" class="cart-btn"> <font-awesome-icon icon="fa-solid fa-cart-shopping"/></button>
+
         <img :src="shoe.image" :alt="shoe.name" class="shoe-image" />
         <div class="shoe-details">
           <h3>{{ shoe.name }}</h3>
@@ -72,21 +74,6 @@ searchShoes()
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.search-bar button {
-  padding: 5px 10px;
-  font-size: 14px;
-  border-radius: 8px;
-  background-color: #FFF2C6;
-  color: black;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.search-bar button:hover {
-  background-color: #ebd9a0;
-}
 
 .shoe-grid {
   display: grid;
@@ -155,7 +142,7 @@ searchShoes()
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .more-btn {
-  background-color: #f0f0f0;
+  background-color: #fff2c6;
   padding: 2px 4px;
   border: none;
   border-radius: 4px;
@@ -165,6 +152,20 @@ searchShoes()
 }
 
 .more-btn:hover {
+  background-color: #d3d3d3;
+}
+.cart-btn {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cart-btn:hover {
   background-color: #d3d3d3;
 }
 
