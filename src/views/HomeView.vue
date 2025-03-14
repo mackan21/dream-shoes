@@ -15,7 +15,7 @@
           <img class="product-image" src="../assets/images/dior2.webp" alt="" />
           <p>Nike</p>
           <p>Jordan 1 Retro Dior High</p>
-          <p>110 000 kr</p>
+          <p>1 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
             Add to Cart
           </button>
@@ -24,7 +24,7 @@
           <img class="product-image" src="../assets/images/Grey2.webp" alt="" />
           <p>Addidas</p>
           <p>Campus 00s "Grey Gum"</p>
-          <p>18 405 kr</p>
+          <p>1 805 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
             Add to Cart
           </button>
@@ -33,7 +33,7 @@
           <img class="product-image" src="../assets/images/png.jpg" alt="" />
           <p>Puma</p>
           <p>Speedcat OG Sneakers Unisex</p>
-          <p>10 000 kr</p>
+          <p>1 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
             Add to Cart
           </button>
@@ -42,7 +42,7 @@
           <img class="product-image" src="../assets/images/n.webp" alt="" />
           <p>New Balance</p>
           <p>New Balance BB480 Kids Sneakers</p>
-          <p>11 000 kr</p>
+          <p>1 000 kr</p>
           <button @click="addToCart" class="add-to-cart-button">
             Add to Cart
           </button>
